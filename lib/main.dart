@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_15/home_page.dart';
+import 'package:flutter_application_15/list_builder_screen.dart';
 import 'package:video_player/video_player.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(),
+      home: ListBuilderScreen(),
     );
   }
 }
